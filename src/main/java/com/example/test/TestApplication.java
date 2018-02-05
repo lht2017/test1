@@ -17,4 +17,10 @@ public class TestApplication {
 
 		return "ipx where ？";
 	}
+	@RequestMapping(value = "/test1", method = RequestMethod.GET)
+	public String test1() {
+
+		return "ipx where test1 ？";
+	}
+
 }
