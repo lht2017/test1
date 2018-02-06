@@ -23,4 +23,9 @@ public class TestApplication {
 		return "ipx where test1 ？";
 	}
 
+	@RequestMapping(value = "/test4", method = RequestMethod.GET)
+	public String test4() {
+
+		return "ipx where test1 ddddd ？";
+	}
 }
