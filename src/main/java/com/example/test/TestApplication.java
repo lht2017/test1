@@ -28,4 +28,11 @@ public class TestApplication {
 
 		return "ipx where test1 ddddd ？";
 	}
+
+	@RequestMapping(value = "/test5", method = RequestMethod.GET)
+	public String test5() {
+
+		return "ipx where test5 ddddd ？";
+	}
+
 }
